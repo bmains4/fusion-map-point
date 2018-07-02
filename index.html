@@ -151,12 +151,13 @@
         // locationScope -- insert a major place name to limit Google Map searches to this area
         $(function() {
           var myMap = new MapsLib({
-            fusionTableId:      "1FMjVRb16OqlkeodL7onaQ5A7jamtpSY0TmHaa-WQ",
-            googleApiKey:       "AIzaSyDIevSvpV-ONb4Pf15VUtwyr_zZa7ccwq4",
-            locationColumn:     "Address",
-            map_center:         [41.76, -72.69],
-            locationScope:      "Connecticut"
+            fusionTableId:      "1TN2Xs0SC4n_CBDhwz4hakL_soVuWXlPLpAyE9zAa",
+            googleApiKey:       "AIzaSyCwqnMxN-BZE3Y58zUP5QlLxN1oFQJdjys",
+            locationColumn:     "Street",
+            map_center:         [39.103119, -84.512016],
+            locationScope:      "cincinnati"
           });
+
 
           var autocomplete = new google.maps.places.Autocomplete(document.getElementById('search_address'));
 
